@@ -1,0 +1,102 @@
+<div id="app"></div>
+<!DOCTYPE html>
+<html  lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Airline Booking Form</title>
+        
+        <link rel="stylesheet" href="style.css">
+
+        <!-- Latest completed and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+        <!--jQuery Library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!--Popper JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+        <!-- Latest compiled Javascript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+    </head>
+    <body>
+        <div class="container"><!--cotainer-->
+
+        <div class class="header">
+          <img src="https://u.cdnxp.com/profile/2019/124330-5cdc7f345918b.png" alt="">
+        </div>
+
+            <form class="form-group"><!--form-->
+                <!--h1 class="text-center">Airline Booking Form</h1-->
+
+                <div id="form">
+                    <h3 class="text-white">Booking Details</h3>
+
+                    <div id="input">
+                        <input type="text" id="input-group" placeholder="From">
+                        <input type="text" id="input-group" placeholder="To">
+                        <input type="date" id="form-control" placeholder="Departure Date">
+                        <input type="text" id="input-group" placeholder="Departure Time">
+                        <select id="input-group" style="background: black;">
+                            <option value="">Preffered Airline</option>
+                            <option value="">Mango Airlines</option>
+                            <option value="">SA Airways</option>
+                            <option value="">British Airlines</option>
+                            <option value="">Kulula.com</option>
+                            <option value="">FlySafair</option>
+                        </select>
+
+                        <select id="input-group" style="background: black;">
+                            <option value="">Preffered Seating</option>
+                            <option value="">Economy Class</option>
+                            <option value="">Business Class</option>
+                            <option value="">First Class</option>
+                        </select>
+                    </div>
+
+                        <div id="input2">
+                            <input type="number" id="input-group" placeholder="Adult">
+                            <input type="number" id="input-group" placeholder="Children(2-11years)">
+                            <input type="number" id="input-group" placeholder="Infant(under 2years)">
+                        </div>
+
+                        <div id="input3">
+                            <span id="input-group" class="text-primary">Select Your Fare</span>
+                            <input type="radio" class="btn" name="check" checked="checked"><span></span>
+                            <label class="text-white" for="input-group">One Way</label>
+                            <input type="radio" class="btn" name="check"><span></span>
+                            <label class="text-white" for="input-group">RoundTrip</label>
+                            <input type="radio" class="btn" name="check"><span></span>
+                            <label class="text-white" for="input-group">Multy City</label> 
+                            
+                            
+                        </div>
+
+                        <div id="input4">
+                            <input type="date" id="form-control" placeholder="Return Date">
+                            <input type="text" id="input-group" placeholder="Return time">
+                            <input type="text" id="input-group1" placeholder="Any Message">
+                        </div>
+
+                        <div id="input5">
+                            <h3 class="text-white">Personal Details</h3>
+                        </div>
+
+                        <div id="input6">
+                            <input type="text" id="input-group" placeholder="Full name">
+                            <input type="number" id="input-group" placeholder="Phone number">
+                            <input type="email" id="input-group1" placeholder="Email">
+                        </div>
+
+                        <button type="submit" class="btn btn-warning text_white">Submit Form</button>
+                        <button type="reset" class="btn btn-primary">Clear Form</button>
+
+                </div>
+                
+            </form><!--form-->
+        </div><!--cotainer-->
+    </body>
+</html>
